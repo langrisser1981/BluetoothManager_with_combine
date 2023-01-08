@@ -11,6 +11,9 @@
 		487C97D92969A99400C11255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C97D82969A99400C11255 /* ContentView.swift */; };
 		487C97DB2969A99500C11255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487C97DA2969A99500C11255 /* Assets.xcassets */; };
 		487C97DE2969A99500C11255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487C97DD2969A99500C11255 /* Preview Assets.xcassets */; };
+		487C97E52969B54000C11255 /* BlueToothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C97E42969B54000C11255 /* BlueToothManager.swift */; };
+		487C97E72969BCDD00C11255 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C97E62969BCDD00C11255 /* DeviceViewModel.swift */; };
+		487C97E92969C0E400C11255 /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C97E82969C0E400C11255 /* DevicesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		487C97D82969A99400C11255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		487C97DA2969A99500C11255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		487C97DD2969A99500C11255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		487C97E42969B54000C11255 /* BlueToothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothManager.swift; sourceTree = "<group>"; };
+		487C97E62969BCDD00C11255 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		487C97E82969C0E400C11255 /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		487C97EA296B0AF100C11255 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 		487C97CA2969A99400C11255 = {
 			isa = PBXGroup;
 			children = (
+				487C97EA296B0AF100C11255 /* README.md */,
 				487C97D52969A99400C11255 /* BTManager */,
 				487C97D42969A99400C11255 /* Products */,
 			);
@@ -53,6 +61,9 @@
 			children = (
 				487C97D62969A99400C11255 /* BTManagerApp.swift */,
 				487C97D82969A99400C11255 /* ContentView.swift */,
+				487C97E42969B54000C11255 /* BlueToothManager.swift */,
+				487C97E82969C0E400C11255 /* DevicesViewModel.swift */,
+				487C97E62969BCDD00C11255 /* DeviceViewModel.swift */,
 				487C97DA2969A99500C11255 /* Assets.xcassets */,
 				487C97DC2969A99500C11255 /* Preview Content */,
 			);
@@ -137,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487C97E72969BCDD00C11255 /* DeviceViewModel.swift in Sources */,
+				487C97E92969C0E400C11255 /* DevicesViewModel.swift in Sources */,
+				487C97E52969B54000C11255 /* BlueToothManager.swift in Sources */,
 				487C97D92969A99400C11255 /* ContentView.swift in Sources */,
 				487C97D72969A99400C11255 /* BTManagerApp.swift in Sources */,
 			);
